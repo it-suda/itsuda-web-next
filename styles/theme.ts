@@ -1,6 +1,20 @@
 import { DefaultTheme } from "styled-components";
 
+const mediaSizes = {
+  sm: 380,
+  md: 768,
+  lg: 1024,
+  xl: 1280,
+};
+
 export const theme: DefaultTheme = {
+  media: {
+    xs: `@media only screen and (max-width: ${mediaSizes.sm}px)`, // ~ 380
+    sm: `@media only screen and (min-width: ${mediaSizes.sm}px)`, // 380 ~
+    md: `@media only screen and (min-width: ${mediaSizes.md}px)`, // 768 ~
+    lg: `@media only screen and (min-width: ${mediaSizes.lg}px)`, // 1024 ~
+    xl: `@media only screen and (min-width: ${mediaSizes.xl}px)`, // 1280 ~
+  },
   colors: {
     white: "#ffffff",
     black: "#000000",
