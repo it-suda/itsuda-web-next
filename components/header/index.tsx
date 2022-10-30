@@ -4,15 +4,13 @@ import logo from "assets/images/logo.png";
 
 export default function Header() {
   return (
-    <>
-      <S.Header>
-        <Container>
-          <S.Logo href="/">
-            <img src={logo.src} alt="Itsuda" />
-          </S.Logo>
-        </Container>
-      </S.Header>
-    </>
+    <S.Header>
+      <Container>
+        <S.Logo href="/">
+          <img src={logo.src} alt="Itsuda" />
+        </S.Logo>
+      </Container>
+    </S.Header>
   );
 }
 
