@@ -20,6 +20,7 @@ declare module "styled-components" {
       readonly gray_1: string;
       readonly gray_2: string;
       readonly gray_3: string;
+      readonly gray_4: string;
       readonly dark_1: string;
       readonly dark_2: string;
       readonly red_1: string;
