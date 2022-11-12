@@ -6,13 +6,14 @@ export default {
       const { media } = theme;
       return css`
         margin: 0 auto;
+        padding-bottom: 30px;
         max-width: 1200px;
 
-        ${media.md} {
+        ${media.lg} {
           padding: 40px;
         }
 
-        ${media.lg} {
+        ${media.xl} {
           padding: 50px 40px;
         }
       `;
@@ -42,7 +43,7 @@ export default {
           background-size: 60%;
         }
 
-        ${media.md} {
+        ${media.lg} {
           align-items: center;
           border-radius: 25px;
           padding: 50px 50px 50px 60px;
@@ -52,7 +53,7 @@ export default {
           background-size: auto 60%;
         }
 
-        ${media.lg} {
+        ${media.xl} {
           background-size: auto 80%;
         }
       `;
@@ -70,7 +71,7 @@ export default {
           font-size: 28px;
         }
 
-        ${media.md} {
+        ${media.lg} {
           font-size: 40px;
         }
 
