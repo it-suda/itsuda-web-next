@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>잇수다</title>
+        <title>잇수다 - IT 이벤트 공유 서비스</title>
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
