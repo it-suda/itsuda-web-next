@@ -10,6 +10,7 @@ export default createGlobalStyle`
         font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
+        min-width: 280px;
         min-height: 100vh;
         background-color: ${colors["dark_1"]};
         color: ${colors["white"]};
