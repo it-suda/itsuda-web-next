@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import Card from "components/events/card";
-import { Event } from "components/events/types";
+import { Event } from "types/eventTypes";
 
 interface CardsProps {
   events: Event[];
@@ -24,6 +24,7 @@ const S = {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+        width: 100%;
 
         ${media.md} {
           display: grid;
