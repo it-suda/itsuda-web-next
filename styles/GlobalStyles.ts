@@ -22,6 +22,17 @@ export default createGlobalStyle`
         color: inherit;
         text-decoration: none;
       }
+      button {
+        border: none;
+        background-color: transparent;
+        outline: none;
+        color: inherit;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+          transition: opacity 0.2s;
+        }
+      }
     `;
   }}
 `;

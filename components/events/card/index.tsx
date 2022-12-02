@@ -1,4 +1,4 @@
-import { Event } from "components/events/types";
+import { Event } from "types/eventTypes";
 import styled, { css } from "styled-components";
 import banner1 from "assets/images/main_banner_1.png";
 
